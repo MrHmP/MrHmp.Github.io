@@ -30,7 +30,11 @@
     color: rgb(201, 197, 190) !important;
     background-color: rgb(24, 26, 27) !important;
   }
-
+  .personal-profile .personal-profile__avatar img{
+    transition: transform .5s ease;
+  }  .personal-profile .personal-profile__avatar img:hover{
+    transform: scale(1.1);
+  }
   .main-header:before,
   .background:before {
     background: linear-gradient(54deg, rgba(0, 200, 150, 0.95) 34%, rgba(92, 30, 27, 0.95)) !important;
