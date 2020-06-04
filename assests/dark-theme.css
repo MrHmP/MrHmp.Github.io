@@ -1,0 +1,38 @@
+.menu {
+    background-color: rgb(24, 26, 27) !important;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 8px 0px !important;
+    color: rgb(201, 197, 190) !important;
+  }
+
+  .mobile-menu {
+    background-color: rgb(24, 26, 27) !important;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 5px 8px 0px !important;
+    color: rgb(201, 197, 190) !important;
+  }
+
+  body {
+    background-color: rgb(24, 26, 27) !important;
+    color: rgb(201, 197, 190) !important;
+  }
+
+  .tags li {
+    background-color: inherit !important;
+  }
+
+  .project-card .project-card__info {
+    border-color: rgb(54, 54, 54) !important;
+  }
+
+  .resume-list .resume-list_title,
+  .slider-carousel .slider-carousel__circle,
+  .resume-list .resume-list__block-date,
+  .menu.menu--active .menu__wrapper a {
+    color: rgb(201, 197, 190) !important;
+    background-color: rgb(24, 26, 27) !important;
+  }
+
+  .main-header:before,
+  .background:before {
+    background: linear-gradient(54deg, rgba(0, 200, 150, 0.95) 34%, rgba(92, 30, 27, 0.95)) !important;
+    background-color: initial !important;
+  }
