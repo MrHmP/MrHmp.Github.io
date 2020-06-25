@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
   <link rel="stylesheet" href="./assests/style.css">
   <link rel="stylesheet" href="./assests/dark-theme.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
             <ul>
               <li><a href="#hello">Hello</a></li>
               <li><a href="#resume">Resume</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#confrences">Confrences</a></li>
               <li><a href="#testimonials">testimonials</a></li>
               <li><a href="#blog">blog</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -37,7 +38,6 @@
     </div>
   </div>
   <!--Main menu-->
-
   <!-- Mobile menu -->
   <div class="mobile-menu d-lg-none">
     <div class="container">
@@ -48,7 +48,7 @@
         <ul>
           <li><a href="#hello">Hello</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#confrences">Confrences</a></li>
           <li><a href="#testimonials">testimonials</a></li>
           <li><a href="#blog">blog</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -57,6 +57,7 @@
     </div>
   </div>
   <!-- Mobile menu -->
+
   <!--Header-->
   <header class="main-header" style="background-image: url(./../assests/bg.jpg)">
     <div class="container">
@@ -88,14 +89,15 @@
                 class="fa fa-stack-overflow"></i></a>
             <a href="https://www.facebook.com/himanshu.pandey30" target="_blank"><i
                 class="fa fa-facebook-square"></i></a>
-            <a href="https://drive.google.com/file/d/1mZQz_T48kxQPBguuAVnomyyfDjlXrlL_/view?usp=sharing"
-              target="_blank" title="Download my CV" ><i class="fa fa-download"></i></a>
+            <a href="https://drive.google.com/file/d/1mZQz_T48kxQPBguuAVnomyyfDjlXrlL_/view?usp=sharing" target="_blank"
+              title="Download my CV"><i class="fa fa-download"></i></a>
           </p>
         </div>
       </div>
     </div>
   </header>
   <!--Header-->
+
   <!--Hello-->
   <section id="hello" class="container section">
     <div class="row">
@@ -117,9 +119,6 @@
             design, system design,
             analysis, and project planning using agile development methodologies.
           </li>
-          <li>Throughout my
-            career I have worked on a very diverse set of projects with different underlying technologies
-            and domains.</li>
           <li>I love lists.</li>
         </ul>
         </p>
@@ -129,9 +128,174 @@
     </div>
   </section>
   <!--Hello-->
+
+  <!--Resume-->
+  <section id="resume" class="container section">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 id="resume_header" class="section__title">Resume_</h2>
+        <p class="section__description">
+          Throughout my career I have worked on a <i>very diverse</i> set of projects with different underlying
+          technologies and domains, In last six years I have learned multiple skills, these are mentioned below.</p>
+      </div>
+    </div>
+    <!-- skills -->
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">skills</h3>
+        <div>
+          <p><span class="resume-list__block-title">Web Technologies</span><span>
+              &nbsp;ASP.NET, React JS, Javascript, Spring Boot
+            </span></p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Blockchain</span>
+            &nbsp;Ethereum, Quorum, Hyperledger Fabric
+          </p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Cloud Frameworks</span>
+            &nbsp AWS
+          </p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Devops Tools</span>
+            &nbsp;Terraform, kubernetes, Docker
+          </p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Frameworks</span>
+            &nbsp;.NET Framework 4, Spring Boot, Rabbit MQ
+          </p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Database</span>
+            &nbsp;SQL Server, Postgres, MongoDB
+          </p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Languages</span>
+            &nbsp;C#, Javascript, Java, Solidity
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- employment -->
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">employment</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.thoughtworks.com/" target="_blank">ThoughtWorks</a>
+          </p>
+          <p class="resume-list__block-date">Jan 2018 - Currently working here . <span id="spnTimeInTW"></span></p>
+          <p>
+            Senior Techincal Consultant<br />
+          </p>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.nagarro.com/en" target="_blank">Nagarro</a>
+          </p>
+          <p class="resume-list__block-date">Aug 2017 - Jan 2018 . 6 mos</p>
+          <p>
+            Senior Associate Technology<br />
+          </p>
+          </br>
+          <p class="resume-list__block-date">Aug 2014 - Jab 2017 . 3 yrs 1 mo</p>
+          <p>
+            Associate Technology<br />
+          </p>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color" href="https://cloudchowk.com"
+              target="_blank">CloudChowk</a></p>
+          <p class="resume-list__block-date">Jun 2013 - Aug 2013 . 3 mos</p>
+          <p>
+            Mobile Developer Intern
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- education -->
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">Education</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="http://ggsipu.ac.in/ExamResults/ExamResultsmain.htm" target="_blank">Bachelor of Technology (BTech),
+              Computer Engineering</a>
+          </p>
+          <p class="resume-list__block-date">2010 - 2014<span id="spnTimeInTW"></span></p>
+          <p>
+            Bharati Vidyapeeth's College of Engineering<br />
+          </p>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.mountcarmeldelhi.com/" target="_blank">Mount Carmel School, Delhi</a>
+          </p>
+          <p class="resume-list__block-date">2008 - 2010<span id="spnTimeInTW"></span></p>
+          <p>
+            High School<br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Resume-->
+
+  <!--confrences-->
+  <section id="confrences" class="container section">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="portfolio_header" class="section__title">My confrences_</h2>
+      </div>
+    </div>
+    <div>
+      <div class="row project-card portfolio-outline">
+        <div class="col-md-6 col-lg-5 project-card__img">
+          <img class="conference-image" src="https://agilitytoday.com/assets/img/logo.png" alt="agility conference">
+        </div>
+        <div class="col-md-6 col-lg-7">
+          <h3 class="project-card__title"><a class="highlighted-green"
+              href="https://agilitytoday.com/events/agile-engineering-lab.html" target="_blank">Blockchain: Ethereum
+              Internals and
+              DAPPS Hands-On</a></h3>
+          <p class="project-card__description">
+            In this session, starting with the basic concepts of blockchain we explored the internal workings of
+            Ethereum and Quorum.
+            &nbsp; This workshop also included a hands-on for writing a full distributed app, starting from a basic
+            setup of the private blockchain network, digging deeper into writing smart contracts, deploying them and the
+            interaction of UI with blockchain. </p>
+          <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Duration</span><span>
+              &nbsp;
+              3 Hours
+            </span></p>
+          <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Date</span><span>
+              &nbsp;
+              29-Feb-2020
+            </span></p>
+          <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Workshop
+              Video</span><span>
+              &nbsp;
+              <a class="highlighted-white" href="https://www.youtube.com/watch?v=JnOE-Zb7Q64&t=886s" target="_blank"><i
+                  class="fa fa-youtube"></i></a>
+            </span></p>
+          <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Code link</span><span>
+              &nbsp;
+              <a class="highlighted-white" href="https://github.com/ThoughtWorksInc/ethereum_handson" target="_blank"><i
+                  class="fa fa-github"></i></a>
+            </span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--confrences-->
+
   <hr>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./scripts/util.js"></script>
 </body>
 

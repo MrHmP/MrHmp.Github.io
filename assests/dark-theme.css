@@ -40,3 +40,35 @@
     background: linear-gradient(54deg, rgba(0, 200, 150, 0.95) 34%, rgba(92, 30, 27, 0.95)) !important;
     background-color: initial !important;
   }
+
+  .resume-list__block-title {
+    font-size: 18px !important;
+  }
+
+  .portfolio-outline {
+    border: 1px solid rgb(54, 54, 54);
+    padding: 5%;
+    cursor: default;
+  }
+
+  .project-card__title,.highlighted-green,.resume-list__block-title_no-color {
+    color: rgb(0,200,150) !important;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0 !important;
+  }
+
+  .portfolio-outline a{
+    cursor: hand;
+  }
+
+  .highlighted-white {
+    color: rgb(201, 197, 190);
+    cursor: hand;
+  }
+
+  .conference-image {
+    width: 300px !important;
+    height: 300px !important;
+  }
