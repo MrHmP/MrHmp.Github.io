@@ -74,9 +74,9 @@
               <dt>Age:</dt>
               <dd><span id="spnAge"></span></dd>
               <dt>Phone:</dt>
-              <dd><a href="tel:82344563333">+91-9868717825</a></dd>
+              <dd><a href="tel:9868717825">+91-9868717825</a></dd>
               <dt>Email:</dt>
-              <dd><a href="mailto:mail@mail.com">me@himanshupandey.com</a></dd>
+              <dd><a class="hrefMyEmail"></a></dd>
               <dt>Address:</dt>
               <dd>New Delhi, India</dd>
             </dl>
@@ -332,8 +332,7 @@
       </div>
       <div class="row project-card portfolio-outline">
         <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="conference-image" src="./assests/AM6A5974-2.jpg"
-            alt="agility conference">
+          <img class="conference-image" src="./assests/AM6A5974-2.jpg" alt="agility conference">
         </div>
         <div class="col-md-6 col-lg-7">
           <u>
@@ -365,6 +364,60 @@
     </div>
   </section>
   <!--confrences-->
+
+  <!--Contact-->
+  <div class="background" style="background-image: url(./../assests/bg.jpg)">
+    <div id="contact" class="container section">
+      <div class="row">
+        <div class="col-md-12">
+          <p id="contacts_header" class="section__title">Get in touch_</p>
+        </div>
+      </div>
+      <div class="row contacts">
+        <div class="col-md-5 col-lg-4">
+          <div class="contacts__list">
+            <dl class="contact-list">
+              <dt>Phone:</dt>
+              <dd><a href="tel:9868717825">+91-9868717825</a></dd>
+              <dt>Email:</dt>
+              <dd><a href="mailto:himanshu30pandey@mail.com">himanshu30pandey@mail.com</a></dd>
+            </dl>
+          </div>
+          <div class="contacts__social">
+            <ul>
+              <li><a href="https://www.facebook.com/himanshu.pandey30">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/himanshu-pandey-20534260/">Linkedin</a></li>
+              <li><a href="https://github.com/MrHmP">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-5">
+          <div class="contacts__form">
+            <p class="contacts__form-title">Or just write me a letter here_</p>
+            <form class="js-form" onsubmit="openMailClient()">
+              <div class="form-group">
+                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
+                <span class="form-validation"></span>
+                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+              </div>
+              <div class="form-group">
+                <textarea class="form-field js-field-message" placeholder="Type the message here" required></textarea>
+                <span class="form-validation"></span>
+                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+              </div>
+              <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+            </form>
+          </div>
+          <div class="footer">
+            <p>Like this website? Code is availabe on <a href="https://github.com/MrHmP/MrHmp.Github.io"
+                target="_blank">github</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Contact-->
+
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./scripts/util.js"></script>

@@ -15,7 +15,19 @@ function getTimeInTW() {
     return `${endDate.diff(startDate, 'years')} yrs ${endDate.diff(startDate, 'months') % 24} mos`;
 }
 
+function getEmailId() {
+    return 'himanshu30pandey@gmail.com';
+}
+
+function openMailClient() {
+    let subject = $(".js-field-name").val();
+    let message = $(".js-field-message").val();
+    window.open(`mailto:${getEmailId()}?subject=${subject}&body=${message}`);
+}
+
 $(document).ready(function () {
     $("#spnAge").text(getAge());
     $("#spnTimeInTW").text(getTimeInTW());
+    $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
+    $(".hrefMyEmail").text(getEmailId());
 });
