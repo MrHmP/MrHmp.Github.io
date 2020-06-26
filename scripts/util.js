@@ -1,8 +1,3 @@
-//Open mobile menu
-$('.menu__mobile-button, .mobile-menu__close').on('click', function () {
-    $('.mobile-menu').toggleClass('active');
-});
-
 function getAge() {
     var startDate = moment("30.06.1993", "DD.MM.YYYY");
     var endDate = moment();
@@ -30,4 +25,7 @@ $(document).ready(function () {
     $("#spnTimeInTW").text(getTimeInTW());
     $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
     $(".hrefMyEmail").text(getEmailId());
+    $('.menu__mobile-button, .mobile-menu__close').on('click', function () {
+        $('.mobile-menu').toggleClass('active');
+    });
 });
