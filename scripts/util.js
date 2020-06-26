@@ -26,6 +26,7 @@ $(document).ready(function () {
     $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
     $(".hrefMyEmail").text(getEmailId());
     $('.menu__mobile-button, .mobile-menu__close').on('click', function () {
+        console.log('HELLO');
         $('.mobile-menu').toggleClass('active');
     });
 });
