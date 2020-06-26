@@ -72,3 +72,7 @@
     width: 300px !important;
     height: 300px !important;
   }
+
+  .contact-list dd {
+    padding-left: 60px;
+  }
