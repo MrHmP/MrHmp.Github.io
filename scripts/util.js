@@ -14,6 +14,10 @@ function getEmailId() {
     return 'himanshu30pandey@gmail.com';
 }
 
+function getResumeLink() {
+    return 'https://drive.google.com/file/d/1mZQz_T48kxQPBguuAVnomyyfDjlXrlL_/view?usp=sharing';
+}
+
 function openMailClient() {
     let subject = $(".js-field-name").val();
     let message = $(".js-field-message").val();
@@ -21,12 +25,18 @@ function openMailClient() {
 }
 
 $(document).ready(function () {
-    $("#spnAge").text(getAge());
-    $("#spnTimeInTW").text(getTimeInTW());
-    $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
-    $(".hrefMyEmail").text(getEmailId());
-    $('.menu__mobile-button, .mobile-menu__close').on('click', function () {
-        console.log('HELLO');
-        $('.mobile-menu').toggleClass('active');
-    });
+    //handle resume calls
+    if (window.location.pathname.toLowerCase() === 'resume') {
+        window.location = getResumeLink();
+    } else {
+        $("#spnAge").text(getAge());
+        $("#spnTimeInTW").text(getTimeInTW());
+        $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
+        $(".hrefMyEmail").text(getEmailId());
+        $(".hrefResumeLink").attr('href', getResumeLink());
+        $('.menu__mobile-button, .mobile-menu__close').on('click', function () {
+            console.log('HELLO');
+            $('.mobile-menu').toggleClass('active');
+        });
+    }
 });
