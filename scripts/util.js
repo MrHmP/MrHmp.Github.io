@@ -4,8 +4,8 @@ function getAge() {
     return endDate.diff(startDate, 'years');
 }
 
-function getTimeInTW() {
-    var startDate = moment("15.01.2018", "DD.MM.YYYY");
+function getTimeDifference(fromDate) {
+    var startDate = moment(fromDate, "DD/MM/YYYY");
     var endDate = moment();
     return `${endDate.diff(startDate, 'years')} yrs ${endDate.diff(startDate, 'months') % 24} mos`;
 }
@@ -30,7 +30,7 @@ $(document).ready(function () {
         window.location = getResumeLink();
     } else {
         $("#spnAge").text(getAge());
-        $("#spnTimeInTW").text(getTimeInTW());
+        $("#duration").text(getTimeDifference($("#duration").data("from")));
         $(".hrefMyEmail").attr('href', `mailto:${getEmailId()}`);
         $(".hrefMyEmail").text(getEmailId());
         $(".hrefResumeLink").attr('href', getResumeLink());
