@@ -7,7 +7,7 @@ function getAge() {
 function getTimeDifference(fromDate) {
     var startDate = moment(fromDate, "DD/MM/YYYY");
     var endDate = moment();
-    return `${endDate.diff(startDate, 'years')} yrs ${endDate.diff(startDate, 'months') % 24} mos`;
+    return `${endDate.diff(startDate, 'years')} yrs ${endDate.diff(startDate, 'months') % 12} mos`;
 }
 
 function getEmailId() {
