@@ -420,12 +420,12 @@
             <p class="contacts__form-title">Feel free to send me a message_</p>
             <form class="js-form" onsubmit="openMailClient()">
               <div class="form-group">
-                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
+                <input class="form-field js-field-name" type="text" name="contact-form-name" placeholder="Your name" required>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
               <div class="form-group">
-                <textarea class="form-field js-field-message" placeholder="Type the message here" required></textarea>
+                <textarea class="form-field js-field-message" id="contact-form-message" placeholder="Type the message here" required></textarea>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
