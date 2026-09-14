@@ -2,23 +2,25 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170881963-1"></script>
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
-    gtag('config', 'UA-170881963-1');
+    gtag('config', 'G-XXXXXXXXXX');
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Himanshu Pandey</title>
+  <title>Himanshu Pandey — Lead Software Engineer | Distributed Systems &amp; Agentic AI</title>
+  <meta name="description"
+    content="Himanshu Pandey — Lead Software Engineer with 12+ years in event-driven distributed systems, now building production agentic AI on Google Cloud with LangGraph, Google ADK and Vertex AI Agent Engine.">
+  <link rel="canonical" href="https://himanshupandey.in/">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
   <link rel="stylesheet" href="./assests/style.css">
   <link rel="stylesheet" href="./assests/dark-theme-1.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -31,8 +33,7 @@
             <ul>
               <li><a href="#hello">Hello</a></li>
               <li><a href="#resume">Resume</a></li>
-              <li><a href="#conferences">Conferences</a></li>
-              <!-- <li><a href="#testimonials">testimonials</a></li> -->
+              <li><a href="#conferences">Speaking</a></li>
               <li><a href="https://dev.to/mrhmp">blog</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -47,6 +48,7 @@
     </div>
   </div>
   <!--Main menu-->
+
   <!-- Mobile menu -->
   <div class="mobile-menu d-lg-none">
     <div class="container">
@@ -57,8 +59,7 @@
         <ul>
           <li><a class="menu__mobile-button" href="#hello">Hello</a></li>
           <li><a class="menu__mobile-button" href="#resume">Resume</a></li>
-          <li><a class="menu__mobile-button" href="#conferences">Conferences</a></li>
-          <!-- <li><a class="menu__mobile-button" href="#testimonials">testimonials</a></li> -->
+          <li><a class="menu__mobile-button" href="#conferences">Speaking</a></li>
           <li><a class="menu__mobile-button" href="https://dev.to/mrhmp">blog</a></li>
           <li><a class="menu__mobile-button" href="#contact">Contact</a></li>
         </ul>
@@ -68,22 +69,20 @@
   <!-- Mobile menu -->
 
   <!--Header-->
-  <header class="main-header" style="background-image: url(./../assests/bg.jpg)">
+  <header class="main-header" style="background-image: url(./assests/bg.jpg)">
     <div class="container">
       <div class="row personal-profile">
         <div class="col-md-4 personal-profile__avatar">
-          <img class="" src="./../assests/profile.jpg" alt="avatar">
+          <img class="" src="./assests/profile.jpg" alt="Himanshu Pandey">
         </div>
         <div class="col-md-8">
           <p class="personal-profile__name">Himanshu Pandey_</p>
-          <p class="personal-profile__work">Polyglot Full Stack Developer | TDD Practitioner |
-            <br />Currently trying hands on DevOps</p>
+          <p class="personal-profile__work">Lead Software Engineer | Distributed Systems &amp; Agentic AI
+            <br />GCP Professional Cloud Architect | TDD Practitioner</p>
           <div class="personal-profile__contacts">
             <dl class="contact-list contact-list__opacity-titles">
-              <dt>Age:</dt>
-              <dd><span id="spnAge"></span></dd>
               <dt>Phone:</dt>
-              <dd><a href="tel:9868717825">+91-9868717825</a></dd>
+              <dd><a href="tel:+919868717825">+91-9868717825</a></dd>
               <dt>Email:</dt>
               <dd><a class="hrefMyEmail"></a></dd>
               <dt>Address:</dt>
@@ -91,15 +90,14 @@
             </dl>
           </div>
           <p class="personal-profile__social">
-            <a href="https://github.com/MrHmP" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/himanshu-pandey-20534260/" target="_blank"><i
-                class="fa fa-linkedin-square"></i></a>
-            <a href="https://stackoverflow.com/users/1163428/mr-hmp" target="_blank"><i
-                class="fa fa-stack-overflow"></i></a>
-            <a href="https://www.facebook.com/himanshu.pandey30" target="_blank"><i
-                class="fa fa-facebook-square"></i></a>
-            <a class="hrefResumeLink" target="_blank"
-              title="Download my CV"><i class="fa fa-download"></i></a>
+            <a href="https://github.com/MrHmP" target="_blank" rel="noopener" title="GitHub"><i
+                class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/himanshu-pandey-20534260/" target="_blank" rel="noopener"
+              title="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+            <a href="https://stackoverflow.com/users/1163428/mr-hmp" target="_blank" rel="noopener"
+              title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
+            <a class="hrefResumeLink" target="_blank" rel="noopener" title="Download my CV"><i
+                class="fa fa-download"></i></a>
           </p>
         </div>
       </div>
@@ -112,28 +110,29 @@
     <div class="row">
       <div class="col-md-10">
         <h2 id="hello_header" class="section__title">Hi_</h2>
-        <p class="section__description">
-        <ul style="list-style-type:disc">
-          <li>I am a Full stack developer with almost nine years of application development and system designing
-            experience, currently working with <a href="https://deliveroo.co.uk/" target="_blank">Deliveroo</a>
+        <ul class="section__description" style="list-style-type:disc">
+          <li>I am a Lead Software Engineer with 12+ years of experience building high-throughput, event-driven
+            distributed systems, currently with <a href="https://www.fabricgroup.com.au/" target="_blank"
+              rel="noopener">FabricGroup</a>.
           </li>
-          <li>I am a polyglot developer and possess sound understanding of leading practices that are prevalent in the
-            industry like Trunk Based Development, CI/CD, Agile software delivery and Test Driven Development. 
+          <li>These days most of my work is in <strong>production agentic AI</strong> &mdash; designing, deploying and
+            evaluating LangGraph and Google ADK agents on Vertex AI Agent Engine, with tracing and regression
+            evaluation through LangSmith.
           </li>
-          <li>Proficient with knowledge on Distributed Ledger, Blockchain and Ethereum, I have been a speaker in
-            multiple forums, conferences and workshops, visit <a href="#conferences">Speaker section</a> for further
-            details.
+          <li>The foundation underneath that is event-driven architecture at scale: Kafka, Pub/Sub, Dataflow and
+            BigQuery on GCP, and Go microservices on AWS before that. I am a GCP Professional Cloud Architect.
           </li>
-          <li>Apart from application development knowledge, I bring to the table my knowledge regarding business
-            process
-            design, system design,
-            analysis, and project planning using agile development methodologies.
+          <li>I am a polyglot developer and a long-time practitioner of Trunk Based Development, CI/CD, Agile delivery
+            and Test Driven Development &mdash; and I spend a lot of time helping teams adopt AI-native development
+            workflows.
+          </li>
+          <li>I have spoken at multiple conferences and workshops, mostly on distributed ledger and Ethereum internals.
+            See the <a href="#conferences">speaking section</a> for details.
           </li>
           <li>I love lists.</li>
         </ul>
-        </p>
-        <a class="hrefResumeLink" target="_blank"
-          class="section_btn site-btn"><img src="./../assests/download.png" alt="Himanshu's CV">Download CV</a>
+        <a class="hrefResumeLink section_btn site-btn" target="_blank" rel="noopener"><img src="./assests/download.png"
+            alt="">Download CV</a>
       </div>
     </div>
   </section>
@@ -145,104 +144,138 @@
       <div class="col-md-10">
         <h2 id="resume_header" class="section__title">Resume_</h2>
         <p class="section__description">
-          Throughout my career I have worked on a <i>very diverse</i> set of projects with different underlying
-          technologies and domains, In last six years I have learned multiple skills, these are mentioned below.</p>
+          Across my career I have worked on a <i>very diverse</i> set of projects, domains and stacks &mdash; from
+          .NET line-of-business applications, through enterprise blockchain, to event-driven platforms and
+          agentic AI on Google Cloud. The skills below are the ones I currently work with.</p>
       </div>
     </div>
+
     <!-- skills -->
     <div class="row">
       <div class="col-md-8 section__resume resume-list">
         <h3 class="resume-list_title">skills</h3>
         <div>
-          <p><span class="resume-list__block-title">Web Technologies</span><span>
-              &nbsp;Java, Spring Boot, React JS, Javascript, GRPC, ASP.NET
+          <p><span class="resume-list__block-title">AI &amp; Agentic Systems</span><span>
+              &nbsp;LangGraph, LangSmith, Google ADK, Vertex AI Agent Engine, Gemini, RAG pipelines, agent evaluation
+              and tracing, Cursor, MCP
             </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Blockchain</span>
-            &nbsp;Ethereum, Quorum, Hyperledger Fabric
-          </p>
+          <p><span class="resume-list__block-title">Languages</span><span>
+              &nbsp;Go, Java, Python, JavaScript / TypeScript, C#, Solidity
+            </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Cloud Frameworks</span>
-            &nbsp AWS
-          </p>
+          <p><span class="resume-list__block-title">Backend</span><span>
+              &nbsp;Spring Boot, RESTful services, gRPC, GraphQL, Protocol Buffers
+            </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Devops Tools</span>
-            &nbsp;Terraform, kubernetes, Docker
-          </p>
+          <p><span class="resume-list__block-title">Cloud</span><span>
+              &nbsp;GCP (Professional Cloud Architect), AWS
+            </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Frameworks</span>
-            &nbsp;Spring Boot,.NET Framework 4, Rabbit MQ
-          </p>
+          <p><span class="resume-list__block-title">Streaming &amp; Messaging</span><span>
+              &nbsp;Apache Kafka, GCP Pub/Sub, Dataflow, RabbitMQ
+            </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Database</span>
-            &nbsp;SQL Server, Postgres, MongoDB
-          </p>
+          <p><span class="resume-list__block-title">Data</span><span>
+              &nbsp;PostgreSQL, BigQuery, MongoDB, DynamoDB, Redis, SQL Server
+            </span></p>
         </div>
         <div>
-          <p><span class="resume-list__block-title">Languages</span>
-            &nbsp;Java, C#, Javascript, Solidity
-          </p>
+          <p><span class="resume-list__block-title">Observability</span><span>
+              &nbsp;OpenTelemetry, Datadog, Prometheus, Grafana, Cloud Logging &amp; Monitoring
+            </span></p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Platform &amp; CI/CD</span><span>
+              &nbsp;Kubernetes (GKE), Docker, Terraform, GitHub Actions, Jenkins, CircleCI
+            </span></p>
+        </div>
+        <div>
+          <p><span class="resume-list__block-title">Blockchain</span><span>
+              &nbsp;Ethereum, Quorum, Hyperledger Fabric
+            </span></p>
         </div>
       </div>
     </div>
+
     <!-- employment -->
     <div class="row">
       <div class="col-md-8 section__resume resume-list">
         <h3 class="resume-list_title">employment</h3>
+
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="https://deliveroo.co.uk/" target="_blank">Deliveroo</a>
+              href="https://www.fabricgroup.com.au/" target="_blank" rel="noopener">FabricGroup</a>
           </p>
-          <p class="resume-list__block-date">Nov 2023 - Current Job <span id="duration" data-from="20/11/2023"></span></span></p>
+          <p class="resume-list__block-date">Nov 2024 - Current</p>
           <p>
-            Senior Software Engineer<br />
+            Lead Software Engineer<br />
+          </p>
+          <p class="project-card__description">
+            Event-driven parcel tracking on GCP (Pub/Sub, Dataflow, BigQuery, Redis, Spring Boot) handling ~1M
+            parcels/day, plus two production AI agents built with LangGraph and Google ADK on Vertex AI Agent Engine.
           </p>
         </div>
+
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="https://www.chargepoint.com/" target="_blank">ChargePoint</a>
+              href="https://deliveroo.co.uk/" target="_blank" rel="noopener">Deliveroo</a>
           </p>
-          <p class="resume-list__block-date">Nov 2021 - Nov 2023 . 2 years</p>
+          <p class="resume-list__block-date">Nov 2023 - Nov 2024 . 1 yr</p>
+          <p>
+            Lead Software Engineer<br />
+          </p>
+          <p class="project-card__description">
+            Led decomposition of a core monolith into Go microservices on AWS with Kafka, gRPC, GraphQL, DynamoDB and
+            Terraform.
+          </p>
+        </div>
+
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.chargepoint.com/" target="_blank" rel="noopener">ChargePoint</a>
+          </p>
+          <p class="resume-list__block-date">Nov 2020 - Nov 2023 . 3 yrs</p>
           <p>
             Staff Software Engineer<br />
           </p>
-          </br>
-          <p class="resume-list__block-date">Dec 2020 - Nov 2021 . 11 mos</span></p>
-          <p>
-            Senior Software Engineer<br />
+          <p class="project-card__description">
+            Built a dynamic EV roaming platform supporting OCPI and OICP across 20+ partner networks.
           </p>
         </div>
+
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="https://www.thoughtworks.com/" target="_blank">ThoughtWorks</a>
+              href="https://www.thoughtworks.com/" target="_blank" rel="noopener">ThoughtWorks</a>
           </p>
-          <p class="resume-list__block-date">Jan 2018 - Dec 2020 . 2 years 11 mos</span></p>
+          <p class="resume-list__block-date">Jan 2018 - Nov 2020 . 2 yrs 11 mos</p>
           <p>
-            Senior Techincal Consultant<br />
+            Senior Software Developer<br />
+          </p>
+          <p class="project-card__description">
+            Delivered client applications with TDD and XP, including enterprise blockchain on Ethereum and Quorum for
+            oil and gas trading.
           </p>
         </div>
+
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="https://www.nagarro.com/en" target="_blank">Nagarro</a>
+              href="https://www.nagarro.com/en" target="_blank" rel="noopener">Nagarro</a>
           </p>
-          <p class="resume-list__block-date">Aug 2017 - Jan 2018 . 6 mos</p>
+          <p class="resume-list__block-date">Aug 2014 - Jan 2018 . 3 yrs 6 mos</p>
           <p>
-            Senior Associate Technology<br />
-          </p>
-          </br>
-          <p class="resume-list__block-date">Aug 2014 - Jan 2017 . 3 yrs 1 mo</p>
-          <p>
-            Associate Technology<br />
+            Associate, Technology<br />
           </p>
         </div>
+
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color" href="https://cloudchowk.com"
-              target="_blank">CloudChowk</a></p>
+              target="_blank" rel="noopener">CloudChowk</a></p>
           <p class="resume-list__block-date">Jun 2013 - Aug 2013 . 3 mos</p>
           <p>
             Mobile Developer Intern
@@ -250,27 +283,42 @@
         </div>
       </div>
     </div>
+
+    <!-- certifications -->
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">certifications</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.credly.com/badges/b7d60e29-4b78-443c-a1da-e73d51f93ef1" target="_blank"
+              rel="noopener">Google Cloud Professional Cloud Architect</a></p>
+          <p class="resume-list__block-date">Google Cloud . Dec 2025</p>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
+              href="https://www.credential.net/4900ebb9-9186-4fe6-bdb1-9e76ad24e050" target="_blank"
+              rel="noopener">Cursor AI Forward Deployed Engineer Accreditation</a></p>
+          <p class="resume-list__block-date">Cursor Partner Network . Aug 2026</p>
+          <p class="project-card__description">
+            Architecting AI-integrated SDLCs, scaling agentic workflows, and enterprise-grade scaffolding, automation
+            and governance.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- education -->
     <div class="row">
       <div class="col-md-8 section__resume resume-list">
         <h3 class="resume-list_title">Education</h3>
         <div class="resume-list__block">
           <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="http://ggsipu.ac.in/ExamResults/ExamResultsmain.htm" target="_blank">Bachelor of Technology (BTech),
-              Computer Engineering</a>
+              href="http://ggsipu.ac.in/ExamResults/ExamResultsmain.htm" target="_blank" rel="noopener">Bachelor of
+              Technology (BTech), Computer Science and Engineering</a>
           </p>
-          <p class="resume-list__block-date">2010 - 2014<span id="spnTimeInTW"></span></p>
+          <p class="resume-list__block-date">2010 - 2014</p>
           <p>
-            Bharati Vidyapeeth's College of Engineering<br />
-          </p>
-        </div>
-        <div class="resume-list__block">
-          <p class="resume-list__block-title"><a class="resume-list__block-title_no-color"
-              href="https://www.mountcarmeldelhi.com/" target="_blank">Mount Carmel School, Delhi</a>
-          </p>
-          <p class="resume-list__block-date">2008 - 2010<span id="spnTimeInTW"></span></p>
-          <p>
-            High School<br />
+            Bharati Vidyapeeth's College of Engineering, New Delhi<br />
           </p>
         </div>
       </div>
@@ -282,19 +330,19 @@
   <section id="conferences" class="container section">
     <div class="row">
       <div class="col-md-12">
-        <h2 id="portfolio_header" class="section__title">My conferences_</h2>
+        <h2 id="portfolio_header" class="section__title">Speaking_</h2>
       </div>
     </div>
     <div>
       <div class="row project-card portfolio-outline">
         <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="conference-image" src="assests/agility.jpeg" alt="agility conference">
+          <img class="conference-image" src="./assests/agility.jpeg" alt="Agility Conference 2020">
         </div>
         <div class="col-md-6 col-lg-7">
           <u>
             <h3 class="project-card__title"><a class="highlighted-green"
-                href="https://agilitytoday.com/events/agile-engineering-lab.html" target="_blank">Agility Conference
-                2020</a></h3>
+                href="https://agilitytoday.com/events/agile-engineering-lab.html" target="_blank"
+                rel="noopener">Agility Conference 2020</a></h3>
           </u>
           <h3 class="project-card__title">Blockchain: Ethereum Internals and DAPPS Hands-On</h3>
           <p class="project-card__description">
@@ -304,73 +352,69 @@
             setup of the private blockchain network, digging deeper into writing smart contracts, deploying them and the
             interaction of UI with blockchain. </p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Duration</span><span>
-              &nbsp;
-              3 Hours
+              &nbsp;3 Hours
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Date</span><span>
-              &nbsp;
-              29-Feb-2020
+              &nbsp;29-Feb-2020
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Workshop
               Video</span><span>
               &nbsp;
-              <a class="highlighted-white" href="https://www.youtube.com/watch?v=JnOE-Zb7Q64&t=886s" target="_blank"><i
-                  class="fa fa-youtube"></i></a>
+              <a class="highlighted-white" href="https://www.youtube.com/watch?v=JnOE-Zb7Q64&amp;t=886s" target="_blank"
+                rel="noopener"><i class="fa fa-youtube"></i></a>
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Code link</span><span>
               &nbsp;
-              <a class="highlighted-white" href="https://github.com/ThoughtWorksInc/ethereum_handson" target="_blank"><i
-                  class="fa fa-github"></i></a>
+              <a class="highlighted-white" href="https://github.com/ThoughtWorksInc/ethereum_handson" target="_blank"
+                rel="noopener"><i class="fa fa-github"></i></a>
             </span></p>
         </div>
       </div>
+
       <div class="row project-card portfolio-outline">
         <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="conference-image" src="./assests/4H2A7060.jpg" alt="tech radar">
+          <img class="conference-image" src="./assests/4H2A7060.jpg" alt="Tech Radar Summit">
         </div>
         <div class="col-md-6 col-lg-7">
           <u>
-            <h3 class="project-card__title">Blockchain: Ethereum Internals and DAPPS Hands-On</h3>
+            <h3 class="project-card__title"><a class="highlighted-green"
+                href="https://www.thoughtworks.com/tech-radar-summit-india-2019" target="_blank" rel="noopener">Tech
+                Radar Summit 2019</a></h3>
           </u>
-          <h3 class="project-card__title"><a class="highlighted-green"
-              href="https://www.thoughtworks.com/tech-radar-summit-india-2019" target="_blank">Tech Radar Summit ,
-              Blockchain in
-              Enterprise</a></h3>
+          <h3 class="project-card__title">Blockchain in Enterprise</h3>
           <p class="project-card__description">
             What does the journey of setting up of the world's first enterprise-level blockchain in the market look
-            like? Here’s an overview of the challenges with the technology, to what went in, into making the final
+            like? Here's an overview of the challenges with the technology, to what went in, into making the final
             design and technical decisions to make it all work.
           </p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Duration</span><span>
-              &nbsp;
-              1 Hour
+              &nbsp;1 Hour
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Date</span><span>
-              &nbsp;
-              29-Jun-2019
+              &nbsp;29-Jun-2019
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Workshop
               Video</span><span>
               &nbsp;
-              <a class="highlighted-white" href="https://www.thoughtworks.com/twisummit/content" target="_blank"><i
-                  class="fa fa-youtube"></i></a>
+              <a class="highlighted-white" href="https://www.thoughtworks.com/twisummit/content" target="_blank"
+                rel="noopener"><i class="fa fa-youtube"></i></a>
             </span></p>
           <p class="project-card__description no-margin-bottom"><span
               class="highlighted-green">Presentation</span><span>
               &nbsp;
-              <a class="highlighted-white" href="https://www.slideshare.net/ThoughtWorks" target="_blank"><i
-                  class="fa fa-file-powerpoint-o"></i></a>
+              <a class="highlighted-white" href="https://www.slideshare.net/ThoughtWorks" target="_blank"
+                rel="noopener"><i class="fa fa-file-powerpoint-o"></i></a>
             </span></p>
         </div>
       </div>
+
       <div class="row project-card portfolio-outline">
         <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="conference-image" src="./assests/AM6A5974-2.jpg" alt="agility conference">
+          <img class="conference-image" src="./assests/AM6A5974-2.jpg" alt="XConf India 2018">
         </div>
         <div class="col-md-6 col-lg-7">
           <u>
-            <h3 class="project-card__title"><a class="highlighted-green" href="" target="_blank">XCONF India 2018</a>
-            </h3>
+            <h3 class="project-card__title">XConf India 2018</h3>
           </u>
           <h3 class="project-card__title">Workshop | Ethereum Internals and DAPPS Hands-On</h3>
           <p class="project-card__description">
@@ -380,17 +424,15 @@
             Blockchain.
           </p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Duration</span><span>
-              &nbsp;
-              3 Hour
+              &nbsp;3 Hours
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Date</span><span>
-              &nbsp;
-              15-Dec-2018
+              &nbsp;15-Dec-2018
             </span></p>
           <p class="project-card__description no-margin-bottom"><span class="highlighted-green">Code link</span><span>
               &nbsp;
-              <a class="highlighted-white" href="https://github.com/ThoughtWorksInc/ethereum_handson" target="_blank"><i
-                  class="fa fa-github"></i></a>
+              <a class="highlighted-white" href="https://github.com/ThoughtWorksInc/ethereum_handson" target="_blank"
+                rel="noopener"><i class="fa fa-github"></i></a>
             </span></p>
         </div>
       </div>
@@ -399,7 +441,7 @@
   <!--conferences-->
 
   <!--Contact-->
-  <div class="background" style="background-image: url(./../assests/bg.jpg)">
+  <div class="background" style="background-image: url(./assests/bg.jpg)">
     <div id="contact" class="container section">
       <div class="row">
         <div class="col-md-12">
@@ -411,16 +453,19 @@
           <div class="contacts__list">
             <dl class="contact-list">
               <dt>Phone:</dt>
-              <dd><a href="tel:9868717825">+91-9868717825</a></dd>
+              <dd><a href="tel:+919868717825">+91-9868717825</a></dd>
               <dt>Email:</dt>
               <dd><a class="hrefMyEmail"></a></dd>
             </dl>
           </div>
           <div class="contacts__social">
             <ul>
-              <li><a href="https://www.facebook.com/himanshu.pandey30">Facebook</a></li>
-              <li><a href="https://www.linkedin.com/in/himanshu-pandey-20534260/">Linkedin</a></li>
-              <li><a href="https://github.com/MrHmP">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/himanshu-pandey-20534260/" target="_blank"
+                  rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/MrHmP" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://stackoverflow.com/users/1163428/mr-hmp" target="_blank" rel="noopener">Stack
+                  Overflow</a></li>
+              <li><a href="https://dev.to/mrhmp" target="_blank" rel="noopener">Blog</a></li>
             </ul>
           </div>
         </div>
@@ -429,12 +474,14 @@
             <p class="contacts__form-title">Feel free to send me a message_</p>
             <form id="contact-form" class="js-form" onsubmit="openMailClient()">
               <div class="form-group">
-                <input class="form-field js-field-name" type="text" name="contact-form-name" placeholder="Your name" required>
+                <input class="form-field js-field-name" type="text" name="contact-form-name" placeholder="Your name"
+                  required>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
               <div class="form-group">
-                <textarea class="form-field js-field-message" id="contact-form-message" placeholder="Type the message here" required></textarea>
+                <textarea class="form-field js-field-message" id="contact-form-message"
+                  placeholder="Type the message here" required></textarea>
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
@@ -442,8 +489,8 @@
             </form>
           </div>
           <div class="footer">
-            <p>Like this website? Code is availabe on <a href="https://github.com/MrHmP/MrHmp.Github.io"
-                target="_blank">github</a></p>
+            <p>Like this website? Code is available on <a href="https://github.com/MrHmP/MrHmp.Github.io"
+                target="_blank" rel="noopener">github</a></p>
           </div>
         </div>
       </div>
@@ -451,7 +498,7 @@
   </div>
   <!--Contact-->
 
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./scripts/util.js"></script>
 </body>
